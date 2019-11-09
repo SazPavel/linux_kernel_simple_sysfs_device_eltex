@@ -10,4 +10,4 @@ all:
 clean:
 	@rm -f *.o *.mod.c *.order
 fullclean: clean
-	@rm *.ko *.symvers $(CCNAME)
+	@rm *.ko *.symvers
